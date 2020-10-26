@@ -1,0 +1,774 @@
+html, body {
+    /* background-image: url("../css/back1.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover; */
+    background-color: #E7E7E7;
+    height: 100%;
+    width: 100%;
+    overflow: scroll;
+}
+
+body::-webkit-scrollbar {
+    width: 0.25rem;
+}
+
+body::-webkit-scrollbar-track {
+    background: #1e1e24;
+}
+
+body::-webkit-scrollbar-thumb {
+    background: #6649b8;
+}
+
+/*Navigare,  .top
+--------->*/
+
+.top {
+    height: 250px;
+    width: 200px;
+    margin: 0 auto;
+    margin-left: ;
+}
+
+li {
+    display: inline;
+    margin: 0 auto;
+    margin-left: -3px;
+}
+
+.lista {
+    margin: 0 auto;
+    width: 600px;
+    margin-left: -27px;
+}
+
+.lista a {
+    text-decoration: none;
+    width: fit-content;
+    font-size: x-large;
+    background-color: rgb(58, 22, 22);
+    margin: -2px;
+    padding: 7px;
+    color: white;
+    transition: 0.3s;
+}
+
+.lista a:hover {
+    background-color: gray;
+}
+
+.lista a:active {
+    background-color: red;
+}
+
+.continut {
+    margin-left: -700px;
+    position: static;
+}
+
+.dropdown-menu {
+    margin-top: 40px;
+}
+
+.dropdown-menu:hover .lista {
+    transition: 2s;
+    display: inline-block;
+}
+
+.dropdown-menu i {
+    width: 2px;
+}
+
+/* Middle---
+------------
+-----------*/
+
+.middle {}
+
+/*Header*/
+
+header {
+    background-color: #666;
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+}
+
+/*Footer*/
+
+.footer_center {
+    margin: auto;
+    width: 950px;
+    height: fit-content;
+    padding: 30px 0 10px 0px;
+    background-color: gray;
+}
+
+.footer p {
+    padding: 15px;
+    text-align: center;
+    background-color: gray;
+    text-align: center;
+}
+
+.aranjare_footer li {
+    display: block;
+}
+
+.footer_ceva {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+/*
+  *************
+ *** signin******
+ ****************
+*/
+
+.profil {
+    color: red;
+    font-size: large;
+}
+
+.profil img {
+    width: 150px;
+    height: 100px;
+    border-radius: 50% 50% 50% 50%;
+}
+
+.signin {
+    text-align: center;
+    margin-top: 100px;
+    margin: 0 auto;
+}
+
+.signin h1 {
+    margin-bottom: 9px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.signin input {
+    width: 300px;
+    height: 40px;
+    margin-bottom: 10px;
+    text-indent: 3px;
+    padding: 5px;
+}
+
+.buton {
+    background-color: white;
+    border: none;
+    height: 50px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.buton:hover {
+    background-color: grey;
+    box-shadow: 0px 0px 5px 5px black;
+     color: rgb(194, 191, 191);
+}
+
+.login {
+    margin-top: 100px;
+}
+
+.login input {
+    width: 300px;
+    height: 40px;
+    margin-bottom: 10px;
+    text-indent: 3px;
+    padding: 5px;
+}
+
+.login h1 {
+    font-family: sans-serif;
+    margin-bottom: 9px;
+    font-size: 25px;
+    color: white;
+}
+
+/*adaugare anunt*/
+
+/**/
+
+.adaugare_anunt {
+    margin: 0 auto;
+    width: fit-content;
+    height: fit-content;
+    background-color: white;
+    padding: 30px 30px 30px 30px;
+    border: 1px solid black;
+}
+
+.adaugare {
+    /*  display: flex;
+   justify-content: space-between;
+   
+    flex-direction: row;
+    flex-wrap: wrap;*/
+}
+
+.adaugare_anunt:hover {
+    box-shadow: 0px 5px 5px 5px black;
+}
+
+.adaugare_anunt form input {
+    width: 250px;
+    height: 30px;
+}
+
+.adaugare_anunt form input.adaugare_anunt_buton {
+    margin-left: 110px;
+    margin-top: 20px;
+    width: 50%;
+    background: linear-gradient(grey, white);
+    color: black;
+    cursor: pointer;
+    border: none;
+}
+
+.adaugare_anunt_buton:hover {
+    background: linear-gradient(blue, white);
+    transition: 0.8s;
+    border: none;
+}
+
+.adaugare_anunt_buton_imagine {
+    width: 95px;
+    margin: 0 0 0 -5px;
+    /* opacity: 0; */
+  
+    cursor: ;
+}
+
+input[type="file"] {
+    width: 100px;
+    height: 50px;
+    margin: auto;
+}
+
+.imagini_anunt {
+    width: 100px;
+    height: 50px;
+    position: absolute;
+}
+.slide_show_img{
+    display:flex;
+    width:300px;
+    height:250px;
+    margin-left: 200px;
+    margin-top:-200px;
+
+}
+
+/*Pozitie lista anunturi*/
+
+.poz
+/*Anunt,paragraf home*/
+
+.paragraf_anunt_home {
+    color: red;
+    text-decoration: none;
+}
+
+/* Afisare anunturi*/
+
+.afisare_anunturi {
+    width: 100px;
+    height: 100px;
+    float: right;
+    color: black;
+}
+
+/*Submit*/
+
+.submit {
+    text-align: center;
+}
+
+/*imagine adaugare anunt*/
+
+.imagine {
+    position: ;
+    width: 150px;
+    height: 90px;
+    margin-left: -5px;
+    margin-top: -14px;
+}
+
+.titlu {
+    text-decoration: none;
+    color: blue;
+    margin-left: 160px;
+    margin-bottom: -7px;
+    margin-top: 3px;
+    font-size: 20px;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.paragraful_anuntului {
+    color: red;
+    font-size: 19px;
+    margin-left: 150px;
+    margin-top: -80px;
+}
+.paragraful_pret{
+    position: relative;
+  text-align: end;
+    margin-top: -10px;
+   
+   font-size: larger;
+    color: black;
+}
+
+.afisare_titlu_img_descriere {
+    width: 600px;
+    height: 150px;
+    background-color: white;
+    opacity: 1;
+    margin: 0 auto;
+    margin-bottom: -20px;
+    padding-left: 20px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+}
+
+/********************
+*****ANUNTURI.PHP****
+**********************/
+
+.info_anunt2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.info_anunt1 {
+    background-color: white;
+    width: 700px;
+    height: auto;
+    border: solid 1px black;
+    margin-bottom: 30px;
+    padding: 30px;
+}
+
+.info_anunt1:hover {
+    box-shadow: 0px 10px 10px 0px black;
+}
+
+.info-anunt {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.titlu_anunt {
+    text-align: center;
+    font-size: 30px;
+    color: black;
+}
+
+.imagine_anunt {
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin-left: 100px;
+    margin-right: ;
+}
+
+
+.paragraf_anunt {
+    text-align: center;
+    color: black;
+    font-size: 20px;
+}
+
+.poz_paragraf_titlu {
+    font-size: larger;
+    text-decoration: underline red;
+}
+
+.poz_paragraf_imagine {
+    font-size: larger;
+    text-decoration: underline red;
+}
+
+.poz_paragraf_descriere {
+    font-size: larger;
+    text-decoration: underline red;
+}
+
+.utilizator_telefon_categorie {
+    color: ;
+    font-size: large;
+    margin-left: ;
+}
+
+.poz_detalii_anunt {
+    font-size: larger;
+    text-decoration: underline red;
+}
+
+.poz_categorie {
+    font-size: larger;
+    text-decoration: underline red;
+}
+
+.poz_telefon {
+    font-size: larger;
+    text-decoration: underline red;
+}
+
+.poz_utilizator {
+    font-size: larger;
+    text-decoration: underline red;
+}
+
+/*Buton logout*/
+
+.buton_logout {
+    background-color: white;
+    border: none;
+    height: 30px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.buton_logout:hover {
+    background-color: grey;
+    color: rgb(194, 191, 191);
+}
+
+/*
+********************
+********************
+****User_profil*****
+********************
+********************
+*/
+
+.custom {
+    display: flex;
+    padding: 10px;
+    align-content: center;
+    border-radius: 30%;
+    width: auto;
+}
+
+.custom:hover {
+    box-shadow: 0 8px 16px 0 black;
+}
+
+.user_profil {
+    width: fit-content;
+    text-align: center;
+    margin-top: -69px;
+    margin-left: 700px;
+}
+
+.user_profile_buton {
+    height: 0;
+    background: none;
+    border: 0;
+    cursor: pointer;
+    padding: 0;
+}
+
+.user_profil:hover {}
+
+#img_user_profile {
+    width: 50px;
+    height: 40px;
+    border-radius: 100%;
+    margin-top: 9px;
+}
+
+.custom p {
+    color: black;
+    font-size: 35px;
+    margin: 0 auto;
+    text-decoration: underline red;
+}
+
+}
+
+/***********************
+*********paginare*******
+************************
+*/
+
+.paginare1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.paginare {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    padding: 30px;
+}
+
+
+.paginare a {
+    color: black;
+    background-color: brown;
+    padding: 8px 16px;
+    text-decoration: none;
+    font-size: 15px;
+    margin-left: 4px;
+}
+
+.paginare a.active {
+    background-color: #4CAF50;
+    color: black;
+    font-size: ;
+}
+
+.paginare a:hover:not(.active) {
+    background-color: red;
+}
+
+/*
+************************
+*****DropDown-Content***
+************************
+*/
+
+.content {
+    display: inline;
+}
+
+.inline_content {
+    display: ;
+}
+
+.dropdown-content {
+    display: none;
+}
+
+.content:hover .dropdown-content  {
+    display: flex;
+    flex-direction: column;
+    margin-left: 82px;
+    margin-top: 6px;
+    transition: ease;
+    position: absolute;
+}
+
+/************************
+Profile edit hover*****
+***********************/
+
+.profile_edit {
+    left: 0;
+    right: 0;
+    width: 50%;
+    max-width: 50%;
+    vertical-align: middle;
+}
+
+.profile_edit input:first-child {
+    margin-top: 20px;
+}
+
+.profile_edit p {
+    position: ;
+    text-align: left;
+    margin-left: 55px;
+    text-decoration: underline red;
+}
+
+.profile_edit #paragraf_unic {
+    color: rgb(255, 0, 0);
+    text-align: center;
+    font-size: 30px;
+    background-color: green;
+    border
+    
+}
+
+.profile_edit:hover {
+    left: 0;
+    right: 0;
+    width: 50%;
+    color: rgb(255, 0, 0);
+    vertical-align: middle;
+    box-shadow: 0 8px 16px 0 black, 0 6px 20px 0 black;
+}
+
+/*****************Users/AdminTab******************/
+.admin_anunturi{
+    display: flex;
+    justify-content: center;
+}
+.admin_background {
+    display: flex;
+    border: solid 1px black;
+    background-color: white;
+    width: fit-content;
+    height: fit-content;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px 250px 0 30px;
+ 
+}
+.admin_background a{
+    padding: 6px;
+    border: solid 1px black;
+} 
+
+.admin_background:hover {
+ 
+}
+
+.cauta {
+    margin: auto;
+    display: flex;
+    width: fit-content;
+    align-items: center;
+    justify-content: center;
+}
+
+.cauta p {
+    margin-top: -2px;
+    font-size: larger;
+    padding-right: 10px;
+}
+
+.afisare_users_adminTab {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: underline red;
+    font-size: larger;
+}
+
+.afisare_users_adminTab p {
+    margin-left: 200px;
+}
+
+.users {
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.users p {
+    width: 55px;
+    height: 40px;
+    margin-left: 200px;
+}
+
+.users p button {
+    margin-top: -7px;
+}
+
+.users a {
+    text-decoration: none;
+}
+
+#usersbuttons {
+    display: flex;
+    margin-right: -150px;
+    margin-top: -25px;
+}
+
+.users_anunturi {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: -25px;
+}
+
+.users_anunturi p {
+    width: 55px;
+    height: 40px;
+    margin-left: 220px;
+}
+
+/*
+************************************************
+**********************DESPRE NOI****************
+************************************************
+*/
+
+.despre1 {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.despre {
+    background-color: white;
+    border: solid 1px black;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 700px;
+}
+
+.despre:hover {
+    box-shadow: 0px 0px 20px 12px black;
+    border: 1px solid red;
+}
+
+/************************************
+******************CONTACT************
+*************************************
+*/
+
+.contact{
+    border: solid 1px black;
+}
+.contact input { 
+    display: flex;
+    flex-direction: column;
+}
+.contact input.buton_logout{
+    border: solid 1px black;
+}
+
+/************
+**************
+**show /hidden
+*/
+
+.show {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 7px 0 7px;
+    height: fit-content;
+    position: ;
+    background-color: lightslategray;
+    border: 1px solid red;
+}
+
+.hidden {
+    
+    justify-content: space-between;
+    position: relative;
+    text-align: center;
+    margin-left: 100px;
+}
+
+.show:hover .ceva7{
+
+    transform: rotate(90deg);
+}
